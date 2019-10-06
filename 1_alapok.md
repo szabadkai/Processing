@@ -50,7 +50,7 @@ sorban végrehajt. A kifejezéseknek számos csoportja van, de lényegében mind
 amit leírtunk a gép számára valamilyen kifejezés lesz.
 
 ##### Változó (Variable)
-```Java
+```Processing
 int x;
 ```
 Egy x nevű változó aminek a típusa int, azaz integer vagyis egy egész szám.
@@ -59,7 +59,7 @@ egyéb érték.
 
 Egy változót létre tudunk hozni, ki tudunk értékelni, és a rajta értelmezett műveletekkel
 tudunk módosítani. Célja egy érték tárolása.
-```Java
+```Processing
 int x; //x értékét nem tudjuk
 x = 3; //x értéke 3
 x = x + 2; //x értéke már 5
@@ -71,7 +71,7 @@ jelenleg nincs szükségünk belemenni.
 
 ##### Operátor (Operator)
 Operátornak hívunk minden olyan kifejezést amit egy adott változó típuson el lehet végezni.
-```Java
+```Processing
 x = 3; //egyenlővé tétel operátor
 x = x + 2; //összeadás és egyenlővé tétel operátor
 ```
@@ -96,7 +96,7 @@ nem akkor hamis. Pl.: 3 > 5 => hamis (false)
 Egy elágazás egy olyan kifejezés amivel "ha ez teljesül akkor történjék ez" feltételeket
 tudunk megfogalmazni.
 
-```Java
+```Processing
 int x;
 x = 3;
 if (x > 5) {
@@ -121,7 +121,7 @@ Két fő fajta ciklus van:
 A for ciklust tipikusan olyan helyzetekben alkalmazzuk amikor egy adott művelet
 halmazt megadott alkalommal szeretnénk végrehajtani.
 Három elemből áll: kezdő kifejezés, megállási feltétel, iterációs kifejezés
-```Java
+```Processing
 for(int y = 0; y < 100; ++y) {
   // valamit tevékenykedünk
 }
@@ -134,7 +134,7 @@ A while ciklus egy specializált for ciklus, ahol a for ciklus három eleméből
 (a megállási feltétel) szerepel. Ezt kényelmi okokból használjuk, de legegyszerűbb az előző
 példán szemléltetni. Először is írjuk át a for ciklust egy pontosan ugyan azt jelentő, de más
 alakra:
-```Java
+```Processing
 int y = 0;
 for(;y < 100;){
   // valamit tevékenykedünk
@@ -142,7 +142,7 @@ for(;y < 100;){
 }
 ```
 Ez while ciklussal kifejezve:
-```Java
+```Processing
 int y = 0;
 while(y < 100){
   // valamit tevékenykedünk
@@ -156,7 +156,7 @@ Mind a kettőnek megvan a helye és idővel tudni fogjuk melyik és hol lesz a m
 
 Függvénynek nevezzük egy kifejezés sorozat nevesített halmazát. Egy függvénynek lehet 0 vagy több
 bemeneti paramétere illetve pontosan 1 visszatérési értéke.
-```Java
+```Processing
 int add(int x, int y){
   return x + y;
 }

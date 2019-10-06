@@ -1,13 +1,7 @@
 # Processing
 
-Programozás kezdőknek.
-Programozási alapok
+Some filler here.
 
-A programozás építő kövei:
-- elágazás
-- ciklus
-- változó
-- kifejezés
-
-Hozzáállás
-Gondolkozási mód
+Anyagok:
+1. [Alapok](1_alapok.md)
+2. [Processing szerkesztő](2_felulet.md)
