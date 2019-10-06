@@ -1,2 +1,2 @@
 # Processing
-Processing tutoriál
+Kezdjünk programozni
