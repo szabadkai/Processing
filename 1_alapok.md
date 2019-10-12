@@ -19,7 +19,7 @@ meg az első lépést mire rájönnénk abból később baj lesz.
 
 Kiből lesz egy jó programozó? Abból aki minél korábban rájön, valójában
 milyen keveset is tud és erre folyamatos fejlődési lehetőségnek tekint. Lássuk be
-mindnyájan kicsit okosabb meztelen csimpánzok vagyunk. Ebből kifolyólag nem tudunk
+mindnyájan emberek vagyunk. Ebből kifolyólag nem tudunk
 mindig mindenre odafigyelni, valamikor fáradtabbak vagyunk mint máskor és néha nem
 is akarunk foglalkozni vele, bármi is legyen a feladat. Ezért nem kell mindent tökéletesen
 csinálni és nem kell különösebben foglalkozni vele hogyan lehetett volna valamit jobban
