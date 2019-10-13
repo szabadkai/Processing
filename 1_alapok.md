@@ -170,7 +170,7 @@ fogunk használni. Mint például a print, println, text, stroke etc...
 
 ### Hogyan tovább
 Ez az összes fogalom amit egy hosszú ideig ismerni érdemes.
-Amíg ezek a fogalmak ülepszenek megismerkedhetünk a Processing nyelv szerkesztőjével és végre
-elkezdhetünk valamiket alkotni is.
+Amíg ezek a fogalmak ülepszenek megismerkedhetünk a Processing nyelv általunk
+alkalmazott formájával a p5.js-el.
 
-[Processing szerkesztő](2_felulet.md)
+[Processing](2_processing.md)
