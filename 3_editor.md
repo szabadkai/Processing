@@ -76,7 +76,7 @@ function draw() {
 Az előbbihez képest csak annyit változtattunk, hogy kiírjuk az egér aktuális helyzetének X és Y koordinátáit a konzolra.
 Figyeljük meg hogy változnak az értékek a Console-on:
 
-![Konzol](console_example.png)
+![Konzol](console_example.PNG)
 
  - Ball felső sarok: x: 0, y: 0
  - Jobb felső sarok: x: 400, y: 0
@@ -111,7 +111,7 @@ function draw() {
 }
 ```
 Ha minden igaz valami ilyesmit kéne látnunk:
-![Koncentrikus körök](concentrical_circles.png)
+![Koncentrikus körök](concentrical_circles.PNG)
 
 Miután kipróbáltuk a kódot és láttuk mi történik próbáljuk meg az egyes részleteket
 módosítani. Törölgessünk ki belőle sorokat. Mik történnek? Próbáljuk meg módosítani
