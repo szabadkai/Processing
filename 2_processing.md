@@ -138,4 +138,4 @@ Mindig a megfelelő referenciát kutassuk:
  Most hogy tudjuk mi a Processing és mi a p5.js és mik a különbségek köztük, csináljunk
  is végre valamit.
 
- [Felület](3_felület.md)
+ [Példaprogram és a szerkesztő](3_editor.md)
