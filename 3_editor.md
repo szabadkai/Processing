@@ -2,7 +2,9 @@
 
 ### Felület
 Nyissuk meg a [p5 Web Editor](https://editor.p5js.org/)
-![Koncentrikus körök](default_screen.png)
+
+![Kezdő képernyő](default_screen.png)
+
 Így néz ki maga a [p5 Web Editor](https://editor.p5js.org/). Három fő része van
 a felületnek. Maga a szövegszerkesztő (Editor) ahova magát a kódot írjuk. Tőle jobbra
 egy *Preview* felirattal jelzett jelenleg még szürke négyzet ahol majd a programunk
@@ -73,7 +75,8 @@ function draw() {
 ```
 Az előbbihez képest csak annyit változtattunk, hogy kiírjuk az egér aktuális helyzetének X és Y koordinátáit a konzolra.
 Figyeljük meg hogy változnak az értékek a Console-on:
-![Konzol](console_example.png)
+
+![Konzol](https://github.com/TheMrAI/Processing/console_example.png)
 
  - Ball felső sarok: x: 0, y: 0
  - Jobb felső sarok: x: 400, y: 0
