@@ -50,8 +50,8 @@ sorban végrehajt. A kifejezéseknek számos csoportja van, de lényegében mind
 amit leírtunk a gép számára valamilyen kifejezés lesz.
 
 ##### Változó (Variable)
-```Processing
-int x;
+```p5js
+var x;
 ```
 Egy x nevű változó aminek a típusa int, azaz integer vagyis egy egész szám.
 Kezdeti értéke, a Processing-ben nem ismert. Más nyelvekben lehet nulla vagy valamilyen
@@ -59,8 +59,8 @@ egyéb érték.
 
 Egy változót létre tudunk hozni, ki tudunk értékelni, és a rajta értelmezett műveletekkel
 tudunk módosítani. Célja egy érték tárolása.
-```Processing
-int x; //x értékét nem tudjuk
+```p5js
+var x; //x értékét nem tudjuk
 x = 3; //x értéke 3
 x = x + 2; //x értéke már 5
 x = 0; //x már nulla
@@ -71,7 +71,7 @@ jelenleg nincs szükségünk belemenni.
 
 ##### Operátor (Operator)
 Operátornak hívunk minden olyan kifejezést amit egy adott változó típuson el lehet végezni.
-```Processing
+```p5js
 x = 3; //egyenlővé tétel operátor
 x = x + 2; //összeadás és egyenlővé tétel operátor
 ```
@@ -96,8 +96,8 @@ nem akkor hamis. Pl.: 3 > 5 => hamis (false)
 Egy elágazás egy olyan kifejezés amivel "ha ez teljesül akkor történjék ez" feltételeket
 tudunk megfogalmazni.
 
-```Processing
-int x;
+```p5js
+var x;
 x = 3;
 if (x > 5) {
   // x értéke több mint 5, csináljunk valamit
@@ -121,8 +121,8 @@ Két fő fajta ciklus van:
 A for ciklust tipikusan olyan helyzetekben alkalmazzuk amikor egy adott művelet
 halmazt megadott alkalommal szeretnénk végrehajtani.
 Három elemből áll: kezdő kifejezés, megállási feltétel, iterációs kifejezés
-```Processing
-for(int y = 0; y < 100; ++y) {
+```p5js
+for(var y = 0; y < 100; ++y) {
   // valamit tevékenykedünk
 }
 ```
@@ -134,16 +134,16 @@ A while ciklus egy specializált for ciklus, ahol a for ciklus három eleméből
 (a megállási feltétel) szerepel. Ezt kényelmi okokból használjuk, de legegyszerűbb az előző
 példán szemléltetni. Először is írjuk át a for ciklust egy pontosan ugyan azt jelentő, de más
 alakra:
-```Processing
-int y = 0;
+```p5js
+y = 0;
 for(;y < 100;){
   // valamit tevékenykedünk
   ++y;
 }
 ```
 Ez while ciklussal kifejezve:
-```Processing
-int y = 0;
+```p5js
+var y = 0;
 while(y < 100){
   // valamit tevékenykedünk
   ++y;
@@ -156,8 +156,8 @@ Mind a kettőnek megvan a helye és idővel tudni fogjuk melyik és hol lesz a m
 
 Függvénynek nevezzük egy kifejezés sorozat nevesített halmazát. Egy függvénynek lehet 0 vagy több
 bemeneti paramétere illetve pontosan 1 visszatérési értéke.
-```Processing
-int add(int x, int y){
+```p5js
+function add(x, y){
   return x + y;
 }
 ```
